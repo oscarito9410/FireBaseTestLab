@@ -1,0 +1,147 @@
+{
+  "project_info": {
+    "project_number": "133712226556",
+    "firebase_url": "https://sismo-989.firebaseio.com",
+    "project_id": "sismo-989",
+    "storage_bucket": "sismo-989.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133712226556:android:83ed072c1da27953",
+        "android_client_info": {
+          "package_name": "com.oscar.realtimechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133712226556-bqaes0kh8k5i3s9ekdfjvkmav017c113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAH8_UlLKUB_j9Ebe5haC11i5hq96kYs"
+        },
+        {
+          "current_key": "AIzaSyD4SbYcZPDEUTC8t_xpS5xIhIk6ZgTGEZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133712226556:android:9dd7c8872cf79040",
+        "android_client_info": {
+          "package_name": "com.oscar.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133712226556-bqaes0kh8k5i3s9ekdfjvkmav017c113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAH8_UlLKUB_j9Ebe5haC11i5hq96kYs"
+        },
+        {
+          "current_key": "AIzaSyD4SbYcZPDEUTC8t_xpS5xIhIk6ZgTGEZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133712226556:android:484df3ab243bc78b",
+        "android_client_info": {
+          "package_name": "cibanco.com.firebasesilencepush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133712226556-bqaes0kh8k5i3s9ekdfjvkmav017c113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAH8_UlLKUB_j9Ebe5haC11i5hq96kYs"
+        },
+        {
+          "current_key": "AIzaSyD4SbYcZPDEUTC8t_xpS5xIhIk6ZgTGEZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133712226556:android:df2fa819a53b0510",
+        "android_client_info": {
+          "package_name": "com.cetech.firebasetestlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133712226556-bqaes0kh8k5i3s9ekdfjvkmav017c113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAH8_UlLKUB_j9Ebe5haC11i5hq96kYs"
+        },
+        {
+          "current_key": "AIzaSyD4SbYcZPDEUTC8t_xpS5xIhIk6ZgTGEZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

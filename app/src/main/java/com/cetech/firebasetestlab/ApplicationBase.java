@@ -42,6 +42,7 @@ public class ApplicationBase extends Application {
                 if (task.isSuccessful()) {
                     mFirebaseRemoteConfig.activateFetched();
                     mManager.add(ConfigFireBase.FIREBASELAB_LAST_VERSION_CODE, remoteConfig.getLong(ConfigFireBase.FIREBASELAB_LAST_VERSION_CODE));
+                    mManager.add(ConfigFireBase.FIREBASELAB_DIALOG_TITLE, remoteConfig.getString(ConfigFireBase.FIREBASELAB_DIALOG_TITLE));
                 }
             }
         });

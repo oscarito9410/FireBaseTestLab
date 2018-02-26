@@ -31,6 +31,7 @@ public class UpdateStoreDialog extends DialogFragment {
     public Dialog onCreateDialog (Bundle savedInstanceState) {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(getActivity());
         dialogBuilder.setMessage(getArguments().getString(ARG_MESSAGE));
+        dialogBuilder.setCancelable(false);
         dialogBuilder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick (DialogInterface dialogInterface, int i) {

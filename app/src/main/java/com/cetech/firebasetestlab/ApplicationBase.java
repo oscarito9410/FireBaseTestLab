@@ -45,6 +45,7 @@ public class ApplicationBase extends Application {
                     mManager.add(ConfigFireBase.FIREBASELAB_DIALOG_TITLE, remoteConfig.getString(ConfigFireBase.FIREBASELAB_DIALOG_TITLE));
                 }
             }
+
         });
 
     }

@@ -1,6 +1,8 @@
 package com.cetech.firebasetestlab;
 
 import android.app.FragmentManager;
+import android.database.Cursor;
+import android.media.RingtoneManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         evaluateOpenDialog();
+        getListRingtones();
     }
 
     private void evaluateOpenDialog () {
@@ -27,5 +30,15 @@ public class MainActivity extends AppCompatActivity {
             UpdateStoreDialog.newInstance(mManager.getString(ConfigFireBase.FIREBASELAB_DIALOG_TITLE)).show(fm, "prueba");
         else
             Log.d(TAG, "evaluateOpenDialog: VERSION CODE IS THE SAME ");
+    }
+
+    private void getListRingtones () {
+        RingtoneManager ringtoneManager = new RingtoneManager(this);
+        ringtoneManager.setType(RingtoneManager.TYPE_RINGTONE);
+        Cursor cursor = ringtoneManager.getCursor();
+        while (cursor.moveToNext()) {
+            System.out.println(cursor.getString(RingtoneManager.TITLE_COLUMN_INDEX));
+            System.out.println(cursor.getString(RingtoneManager.URI_COLUMN_INDEX));
+        }
     }
 }

@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
@@ -47,6 +48,9 @@ public class ApplicationBase extends Application {
             }
 
         });
+
+        FirebaseMessaging.getInstance().subscribeToTopic("prueba");
+        FirebaseMessaging.getInstance().subscribeToTopic("noticia");
 
     }
 }

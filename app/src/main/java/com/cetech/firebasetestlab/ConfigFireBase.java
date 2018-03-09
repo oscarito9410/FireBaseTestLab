@@ -16,7 +16,7 @@ public class ConfigFireBase {
     public static HashMap <String, Object> getDefaults () {
         HashMap <String, Object> defuaultsValues = new HashMap <>();
         defuaultsValues.put(FIREBASELAB_LAST_VERSION_CODE, BuildConfig.VERSION_CODE);
-        defuaultsValues.put(FIREBASELAB_DIALOG_TITLE, "Existe una nueva versión de la app");
+        defuaultsValues.put(FIREBASELAB_DIALOG_TITLE, "Existe una nueva versión disponible");
         return defuaultsValues;
     }
 }
